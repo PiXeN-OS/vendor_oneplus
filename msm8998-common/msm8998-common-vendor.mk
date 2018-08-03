@@ -1222,8 +1222,72 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so
-
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qvrservice:$(TARGET_COPY_OUT_VENDOR)/bin/qvrservice \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qvrservicetest64:$(TARGET_COPY_OUT_VENDOR)/bin/qvrservicetest64 \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/qvrservicetest:$(TARGET_COPY_OUT_VENDOR)/bin/qvrservicetest \
+    vendor/oneplus/msm8998-common/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
+    vendor/oneplus/msm8998-common/proprietary/framework/com.fingerprints.extension.jar:system/framework/com.fingerprints.extension.jar \
+    vendor/oneplus/msm8998-common/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
+    vendor/oneplus/msm8998-common/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
+    vendor/oneplus/msm8998-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libarcsoft_hdr_denoise_api.so:system/lib/libarcsoft_hdr_denoise_api.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libarcsoft_high_dynamic_range.so:system/lib/libarcsoft_high_dynamic_range.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libqvr_adsp_driver_stub.so:system/lib/libqvr_adsp_driver_stub.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libqvrservice_ov7251_hvx_tuning.so:system/lib/libqvrservice_ov7251_hvx_tuning.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libqvrservice_ov9282_hvx_tuning.so:system/lib/libqvrservice_ov9282_hvx_tuning.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libsns_low_lat_stream_stub.so:system/lib/libsns_low_lat_stream_stub.so \
+    vendor/oneplus/msm8998-common/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libCalibrationJNI.so:system/lib64/libCalibrationJNI.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libclearsight.so:system/lib64/libclearsight.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libqvrservice_ov7251_hvx_tuning.so:system/lib64/libqvrservice_ov7251_hvx_tuning.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libqvrservice_ov9282_hvx_tuning.so:system/lib64/libqvrservice_ov9282_hvx_tuning.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libseestraight.so:system/lib64/libseestraight.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libsns_low_lat_stream_stub.so:system/lib64/libsns_low_lat_stream_stub.so \
+    vendor/oneplus/msm8998-common/proprietary/lib64/libtruescanner.so:system/lib64/libtruescanner.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/init.qti.ims.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.ims.sh \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
+    vendor/oneplus/msm8998-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/qvr/qvrservice_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config_stereo.xml \
+    vendor/oneplus/msm8998-common/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/vendor.display.config@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0_vendor.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_drplugin_server.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.display.config@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -1244,7 +1308,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     WfdCommon \
     vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java
+    vendor.qti.hardware.sensorscalibrate-V1.0-java \
+    AntHalService \
+    QtiSystemService
 endif
 
 -include vendor/extra/devices.mk
