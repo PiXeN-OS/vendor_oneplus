@@ -1199,7 +1199,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     CNEService \
-    com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTelephonyService \
