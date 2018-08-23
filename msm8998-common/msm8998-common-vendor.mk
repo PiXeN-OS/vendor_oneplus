@@ -1188,7 +1188,28 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/oneplus/msm8998-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/oneplus/msm8998-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/oneplus/msm8998-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+    vendor/oneplus/msm8998-common/proprietary/vendor/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so
+
 
 PRODUCT_PACKAGES += \
     libantradio \
