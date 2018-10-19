@@ -1309,7 +1309,6 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
-    AntHalService \
     QtiSystemService
 endif
 
